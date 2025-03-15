@@ -384,6 +384,8 @@ gap: 27px;
 
   .save__button {
     flex-direction: column;
+    min-inline-size: 310px;
+    min-block-size: 84px;
   }
 
   .save__button-icon {
@@ -392,7 +394,7 @@ gap: 27px;
   }
 
   .dialog[open] {
-    padding-inline: 40px;
+    padding-inline: 30px 40px;
     inline-size: 341px;
   }
 }
