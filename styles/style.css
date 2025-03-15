@@ -344,3 +344,28 @@ gap: 27px;
   filter: hue-rotate(0.3turn) blur(3px) contrast(50%) saturate(150%)
   grayscale(10%);
 }
+
+@media (width <=375px) {
+  .label {
+    top: 23px;
+    right: 11px;
+  }
+
+  .footer__save {
+    margin-block-end: 100px;
+  }
+
+  .save__button {
+    flex-direction: column;
+  }
+
+  .save__button-icon {
+    inline-size: 28px;
+    block-size: 28px;
+  }
+
+  .dialog[open] {
+    padding-inline: 40px;
+    inline-size: 341px;
+  }
+}
