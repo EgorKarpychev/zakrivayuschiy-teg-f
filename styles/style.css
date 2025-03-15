@@ -366,6 +366,6 @@ gap: 27px;
 
   .dialog[open] {
     padding-inline: 40px;
-    inline-size: 340px;
+    inline-size: 341px;
   }
 }
