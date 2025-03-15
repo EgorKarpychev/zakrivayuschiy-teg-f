@@ -581,7 +581,7 @@
         </div>
       </section>
 
-      <section class="footer__save">
+      <div class="footer__save">
         <button
           class="save__button button"
           onclick="window.save.showModal()"
@@ -589,33 +589,32 @@
         >
           <svg
             class="save__button-icon"
-            fill="currentColor"
             viewBox="0 0 39 39"
             aria-hidden="true"
           >
-            <use href="./svg/floppy.svg" />
+            <use href="./svg/floppy.svg#floppy" />
           </svg>
           <span class="button__text">Сохранить на память</span>
         </button>
-
+      
         <dialog id="save" class="dialog">
           <form method="dialog" class="dialog__form">
             <svg
               class="dialog__icon"
-              fill="currentColor"
-              viewBox="0 0 39 39"
+              viewBox="0 0 42 42"
               width="39"
               height="39"
               aria-hidden="true"
             >
-              <use href="./svg/floppy.svg"></use>
+              <use href="./svg/floppy.svg#floppy"></use>
             </svg>
             <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-            
-            <button type="submit" class="dialog__button button"><span class="button__text">ок</span></button>
+            <button type="submit" class="dialog__button button">
+              <span class="button__text">ок</span>
+            </button>
           </form>
         </dialog>
-      </section>
+      </div>
     </main>
     <script src="./scripts/like.js"></script>
   </body>

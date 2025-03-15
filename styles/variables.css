@@ -11,8 +11,9 @@
     --header-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --header-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
     --header-padding: clamp(7.5rem, 6.9231rem + 2.4615vw, 8rem);
-    --header-width: clamp(375px, calc(100vw - 51.3989vh), 700px);
+    --header-width: clamp(375px, 100vw, 700px);
     --text-stroke: #fff;
     --heart-contour-color: #000;
     --heart-fill-color: #ff0000;
+    --decorated-font-color: white;
 }
