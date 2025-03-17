@@ -145,15 +145,10 @@ gap: 27px;
   outline: none;
 }
 
-.card__icon-button:focus-visible {
-  border: 2px solid #000;
-}
-
 .like-icon {
   flex-shrink: 0;
   inline-size: 39px;
   block-size: 36px;
-  cursor: pointer;
 }
 
 .like-icon:focus {
